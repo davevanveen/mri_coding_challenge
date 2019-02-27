@@ -25,7 +25,7 @@ parser_model.py | III | Parser for command line input of model training paramete
 configs_model.json | III | Default configurations for parser_model
 prototype.ipynb | II, III | Code for plotting figure output
 
-In this table, the second column refers to the three challenge tasks: (I) DICOM I/O (II) Simulated fast acquisitions (III) Deep learning super resolution model
+The second column refers to the three challenge tasks: (I) DICOM I/O (II) Simulated fast acquisitions (III) Deep learning super resolution model
 
 
 
