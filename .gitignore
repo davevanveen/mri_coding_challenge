@@ -6,3 +6,5 @@ local/
 mri_cc/
 *.pyc
 *.zip
+.ipynb_checkpoints/
+pip-selfcheck.json
