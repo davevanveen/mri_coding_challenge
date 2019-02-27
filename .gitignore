@@ -1,0 +1,8 @@
+bin/
+data/
+include/
+lib/
+local/
+mri_cc/
+*.pyc
+*.zip

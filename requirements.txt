@@ -1,0 +1,14 @@
+torch
+torchvision
+h5py
+pydicom
+six
+numpy
+scipy
+Pillow
+matplotlib
+scikit-image
+opencv-python
+imageio
+Shapely
+imgaug

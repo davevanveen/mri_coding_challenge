@@ -1,0 +1,5 @@
+{
+	"input_dicom_path": "data/input_dicom/P1_dcm",
+	"hdf5_path": "data/files_h5/P1_h5",
+	"output_dicom_path": "data/output_dicom/P1_dcm"
+}
