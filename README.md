@@ -2,14 +2,12 @@
 
 This repository was created for a 72-hour coding challenge in which the goal was to improve MRI reconstruction with deep learning techniques. More details on this challenge and my submitted write-up can be found [here](https://github.com/davevanveen/mri_coding_challenge/blob/master/writeup.pdf).
 
-
-Below is an example slice of 3D volume from an MRI reconstruction. At left is the original image (left), the blurred image (middle), and the model result (right). As discussed in the write-up, there are multiple methods which I suspect would deliver improved model performance.
 <img src="https://github.com/davevanveen/mri_coding_challenge/blob/master/plots/orig_v_blur_v_result.png" width="800">
+Above is an example slice of 3D volume from an MRI reconstruction: the original image (left), the blurred image (middle), and the model result (right). As discussed in the write-up, there are multiple methods which I suspect would deliver improved model performance.
+
 
 
 ### Repository Overview
-
-In this table, task refers to each of three parts of the challenge: (I) DICOM I/O (II) Simulated fast acquisitions (III) Deep learning super resolution model
 
 File | Task | Description
 --- | --- | ---
@@ -27,10 +25,14 @@ parser_model.py | III | Parser for command line input of model training paramete
 configs_model.json | III | Default configurations for parser_model
 prototype.ipynb | II, III | Code for plotting figure output
 
-Note: To run this code, one must also download MRI dicom files in a directory called `data/`. The data I used for my coding challenge can be found at <http://old.mridata.org/fullysampled/knees>
+In this table, the second column refers to the three challenge tasks: (I) DICOM I/O (II) Simulated fast acquisitions (III) Deep learning super resolution model
+
 
 
 ### Example commands
+
+Note: To run this code, one must also download MRI dicom files in a directory called `data/`. The data I used for my coding challenge can be found at <http://old.mridata.org/fullysampled/knees>
+
 * File I/O
 `python dcm_to_h5 --i path_to_input_dicom_directory --h path_to_output_hdf5_file`
 * Model training
